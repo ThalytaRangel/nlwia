@@ -1,0 +1,31 @@
+#app {
+  display: flex;
+  max-width: 500px ;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#app > h1 {
+  color: #996dff;
+  margin-top: -5px;
+}
+
+#app > h2 {
+    align-self: flex-start;
+    margin-top: 64px;
+    font-size: 22px ;
+}
+
+#app > p {
+  text-align: justify;
+  align-self: flex-start;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 18px;
+}
+
+#app .placeholder {
+  color: #7C7C8A;
+  user-select: none;
+}
